@@ -9,8 +9,7 @@ function PokemonListPage() {
             <PokemonCard/>
             <PokemonCard/>
             <PokemonCard/>
-            <PokemonCard/>  
-            <PokemonCard/>
+            <PokemonCard/> 
         </Container>
     )
 }
