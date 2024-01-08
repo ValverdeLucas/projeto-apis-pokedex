@@ -5,7 +5,7 @@ function Header() {
 
     return (
         <Container>
-            <Title src={logo} />
+            <Title src={logo}/>
             <GoToPokedex>Ver minha Pokédex</GoToPokedex>
         </Container>
     )

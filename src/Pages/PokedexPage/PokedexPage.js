@@ -1,9 +1,16 @@
+import PokemonCard from "../../Components/PokemonCard/PokemonCard"
+import { Container, Text } from "./PokedexPageStyles";
+
 function PokedexPage() {
 
     return (
-        <>
-            <h2>Esta é a Page</h2>
-        </>
+        <Container>
+            <Text>Meus Pokemons</Text>
+            <PokemonCard />
+            <PokemonCard />
+            <PokemonCard />
+            <PokemonCard />
+        </Container>
     )
 }
 
